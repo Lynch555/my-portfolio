@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="js/main.js"></script>
+  <title>my-portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="navbar container">
+    <img src="images/logo.svg" alt="Logo" />
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#main" class="nav-link active">Главная</a></li>
+        <li class="nav-item"><a href="#portfolio" class="nav-link">Проекты</a></li>
+        <li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+        <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- /.navbar -->
+
+  <header class="header container" id="main">
+    <img src="images/avatar.png" alt="Сергей" class="header-photo" />
+    <div class="header-text">
+      <strong class="header-strong">Привет</strong>
+      <strong class="header-strong">👋</strong>
+      <h1 class="header-heading">
+        <span class="header-primary">Я фронтенд-разработчик и веб-дизайнер</span><br />
+        Меня зовут Сергей и я делаю сайты для людей и компаний
+      </h1>
+      <div class="header-links">
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/Icons/linkedin.svg" alt="linkedin"
+                class="social-logo" /></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/Icons/twitter.svg" alt="twitter" class="social-logo" /></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/Icons/github.svg" alt="github" class="social-logo" /></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/Icons/stackoverflow.svg" alt="stackoverflow"
+                class="social-logo" /></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/Icons/youtube.svg" alt="youtube" class="social-logo" /></a>
+          </li>
+        </ul>
+        <a href="#" class="cv-download" download>
+          <img src="images/Icons/dawnload.svg" alt="dawnload-icon" class="cv-icon">
+          <span class="cv-text">Скачать резюме</span>
+        </a>
+      </div>
+      <!-- /.header-links -->
+    </div>
+    <!-- /.header-text -->
+  </header>
+  <!-- /.header -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-heading">Последние проекты</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="images/portfolio/image 01.png" style="width: 400px"></div>
+              <div class="swiper-slide"><img src="images/portfolio/image 02.png" style="width: 400px"></div>
+              <div class="swiper-slide"><img src="images/portfolio/image 03.png" style="width: 400px"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+
+          <!-- <img src="images/portfolio/image 01.png" alt="Мобильное приложение" class="card-image"> -->
+          <div class="card-text-wraper">
+            <h3 class="card-title">Мобильное приложение</h3>
+            <ul class="tags">
+              <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+              <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+              <li class="tags-item"><a href="#" class="tag">Git</a></li>
+              <li class="tags-item"><a href="#" class="tag">Vitejs</a></li>
+              <li class="tags-item"><a href="#" class="tag">JavaScropt</a></li>
+            </ul>
+            <p class="card-text">
+              Услуга, направленная на разработку интерьеров помещений,дизайна с анимацией, дизайн интерьера и
+              экстерьера.
+            </p>
+            <div class="card-buttons">
+              <a href="#" class="card-button">
+                <img src="images/Icons/code.svg" alt="code icon" class="card-button-icon" />
+                <span class="card-button-text">Код</span>
+              </a>
+              <a href="#" class="card-button">
+                <img src="images/Icons/check.svg" alt="check icon" class="card-button-icon" />
+                <span class="card-button-text">Демо</span>
+                ></a>
+            </div>
+
+          </div>
+          <!-- /.card-text-wraper -->
+        </div>
+        <!-- /.cards -->
+        <div class="card">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">1/3</div> -->
+              <img src="images/portfolio/slide1.jpg" style="width: 400px" alt="">
+              <div class="text">
+                Шаблон сайта электрика.<br />
+                Решите свою проблему прямо сейчас! Низкие цены. <br />
+                Найдете дешевле - вернем разницу!
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+
+              <!-- <div class="numbertext">2/3</div> -->
+              <img src="images/portfolio/slide2.png" style="width: 400px" alt="">
+              <div class="text">Другой кричащий заголовок! <br />
+                В этом блоке можно разместить несколько слайдов на любую тематику, с необходимыми вам
+                заголовками и текстами</div>
+
+            </div>
+
+            <div class="mySlides fade">
+              <!-- <div class="numbertext">3/3</div> -->
+              <img src="images/portfolio/slide3.png" style="width: 400px" alt="">
+              <div class="text">Услуги электрика. <br />
+                Решите свою проблему прямо сейчас! Низкие цены. <br />
+                Найдете дешевле - вернем разницу!
+              </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+          </div>
+          <br>
+
+          <!-- <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div> -->
+
+
+          <!-- <img src="images/portfolio/slide1.jpg" alt="Одностраничный промо-сайт" class="card-image"> -->
+          <div class="card-text-wraper">
+            <h3 class="card-title">Одностраничный промо-сайт</h3>
+            <ul class="tags">
+              <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+              <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+              <li class="tags-item"><a href="#" class="tag">JavaScropt</a></li>
+            </ul>
+            <p class="card-text">
+              На этом сайте можно разместить несколько слайдов на любую тематику, с необходимыми
+              заголовками и текстами.
+            </p>
+            <div class="card-buttons">
+              <a href="#" class="card-button">
+                <img src="images/Icons/code.svg" alt="code icon" class="card-button-icon" />
+                <span class="card-button-text">Код</span>
+              </a>
+              <a href="#" class="card-button">
+                <img src="images/Icons/check.svg" alt="check icon" class="card-button-icon" />
+                <span class="card-button-text">Демо</span>
+                ></a>
+            </div>
+          </div>
+          <!-- /.card-text-wraper
+        </div>
+        <!-- /.cards -->
+        </div>
+      </div>
+      <!-- /.cards -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.portfolio -->
+  <section class="developer container" id="developer">
+    <img src="images/developer-photo.png" alt="Сергей" class="developer-photo">
+    <div class="developer-about">
+      <span class="developer-hello">Рад вас видеть</span>
+      <h2 class="developer-title">Я Сергей</h2>
+      <p class="developer-text">Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип,
+        дизайн-макет, пишу код.
+      </p>
+      <span class="motto">Код, Дизайн, Обучение</span>
+      <p class="developer-text">Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из
+        инструментов есть:
+        Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
+      </p>
+      <img src="images/sign.png" alt="Подпись: Сергей" class="developer-sign">
+    </div>
+  </section>
+  <!-- /.developer container -->
+  <section class="scills container" id="scills">
+    <h2 class="scills-title">Работаю с разными языками и инструментами</h2>
+    <ul class="tags">
+      <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+      <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+      <li class="tags-item"><a href="#" class="tag">JavaScropt</a></li>
+      <li class="tags-item"><a href="#" class="tag">Wordpress</a></li>
+      <li class="tags-item"><a href="#" class="tag">npm</a></li>
+      <li class="tags-item"><a href="#" class="tag">Reactjs</a></li>
+      <li class="tags-item"><a href="#" class="tag">Nextjs</a></li>
+      <li class="tags-item"><a href="#" class="tag">UI Design</a></li>
+      <li class="tags-item"><a href="#" class="tag">SASS</a></li>
+    </ul>
+  </section>
+  <!-- /.scills -->
+  <section class="feedback" id="feedback">
+    <div class="form-container">
+      <img src="images/hand.png" alt="hand" class="feedback-hand" id="hand">
+      <h2 class="feedback-title">Готов обсудить проект...</h2>
+      <form action="#" class="form">
+        <div class="input-group">
+          <label for="userName" class="input-label">Имя</label>
+          <input id="userName" name="client_name" type="text" class="input" />
+        </div>
+        <!-- /.input-group -->
+        <div class="input-group">
+          <label for="userEmail" class="input-label">Email</label>
+          <input id="userEmail" name="client_email" type="text" class="input" />
+        </div>
+        <!-- /.input-group -->
+        <div class="input-group">
+          <label for="userMassage" class="input-label">Сообщение</label>
+          <textarea id="userMassage" name="client_massage" cols="30" rows="30" class="input textarea"></textarea>
+        </div>
+        <!-- /.input-group -->
+        <div class="button-group">
+          <button tupe="submit" class="submit-button">
+            <img src="images/Icons/send.svg" alt="send-icon" class="cv-icon">
+            <span class="cv-text">Отправить</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- /.feedback -->
+  <script defer src="js/slider.js"></script>
+  <script src="./js/slider1.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>
