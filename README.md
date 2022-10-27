@@ -1,3 +1,3 @@
-# my-portfolio [Жми:](https://pages.github.com/)
+# my-portfolio [Жми:](lynch555.github.io/my-portfolio/)
 - Тренеровочный сайт
 - Добавляю новые элементы
